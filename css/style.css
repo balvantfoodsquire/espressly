@@ -206,12 +206,13 @@ button:focus{
   color: #181818;
 }
 .history_container p{
-  color: #6c757d;
-    font-weight: bold;
-    font-size: 17px;
+ color: #6c757d;
+ font-size: 20px;
     letter-spacing: 1px;
     line-height: 24px;
-    font-family: sans-serif;
+line-height: 1.49;
+  letter-spacing: 1.03px;
+    font-family: RobotoCondensed-Regular;
 }
 .history_card{
   background: #fff;
@@ -311,8 +312,11 @@ button:focus{
 
 
 .pricing_container{
-  background: #f3f8ff;
-  height: 650px;
+  background: url(../img/hero-pattern.svg) #f3f8ff;
+    height: 830px;
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
 }
 .pricing_container h1{
   font-size: 42px;
@@ -338,7 +342,7 @@ button:focus{
   text-align: center;
   padding: 30px 30px 10px 30px;
   box-shadow: 0 0 10px #ccc;
-  margin-top: 130px;
+  margin-top: 190px;
 }
 .pricing_card h2{
   font-size: 27px;
@@ -369,9 +373,11 @@ button:focus{
 }
 .orderbtn {
   box-shadow: 0 0 10px #ccc!important;
-  margin: 0px 50px 20px!important;
+  margin: 0 auto 20px auto !important;
+  width: 180px;
   border-radius: 50px;
   font-size: 13px!important;
+  padding: 4px 0;
 }
 .pricegetbtn{
   background: #15382e;
@@ -410,13 +416,13 @@ button:focus{
   font-size: 60px!important;
 }
 .center_card{
-  margin-top: 90px!important;
+  margin-top: 150px!important;
 }
 .center_card h2{
   padding-top: 20px;
 }
 .card_height{
-  /*height: 536px!important;*/
+  height: 612px!important;
 }
 .carge_container{
   text-align: center;
@@ -432,6 +438,64 @@ button:focus{
 }
 .printers_img{
   margin-top: 30px;
+}
+.noaddbtn .fa{
+  margin: 0 10px;
+  background: #e8ecf7;
+  border-radius: 50px;
+  padding: 4px 4px 2px 5px;
+  font-size: 11px;
+  color: #fff;
+  line-height: 12px;
+}
+.addbtn .fa{
+  margin: 0 10px;
+  background: #15382e;
+  border-radius: 50px;
+  padding: 4px 4px 2px 5px;
+  font-size: 11px;
+  color: #fff;
+  line-height: 12px;
+}
+@media only screen and (max-width: 812px) {
+  .history_card{
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 823px) {
+  .carge_container{
+    margin-top: 650px;
+    padding: 0 30px;
+  }
+  .orderbtn {
+    box-shadow: 0 0 10px #ccc!important;
+    border-radius: 50px;
+    font-size: 9px!important;
+  }
+  .card_height {
+    height:inherit!important;
+  }
+  .pricing_card{
+    padding: 30px 16px 10px 16px;
+  }
+  .pricing_card ul li{
+    margin: 10px 0;
+  }
+  .history_card{
+    margin-left: 20px !important;
+  }
+  .footer .linkfooter a{
+    font-size: 18px;
+  }
+  .fontsize-22 li {
+    font-size: 18px;
+  }
+  .Pickup_text{
+    font-size: 18px!important;
+  }
+  .pickuplist li{
+    font-size: 16px!important;
+  }
 }
 @media only screen and (max-width: 767px) {
   .about_container h1{
@@ -494,5 +558,17 @@ button:focus{
   }
   .pricing_container{
     padding-bottom: 40px;
+  }
+  .footer .linkfooter a{
+    font-size: 18px;
+  }
+  .fontsize-22 li {
+    font-size: 18px;
+  }
+  .Pickup_text{
+    font-size: 18px!important;
+  }
+  .pickuplist li{
+    font-size: 16px!important;
   }
 }
