@@ -7,6 +7,10 @@
   src: url(../fonts/roboto/RobotoCondensed-Regular.ttf);
 }
 @font-face {
+  font-family: RobotoCondensed-Bold;
+  src: url(../fonts/roboto/RobotoCondensed-Bold.ttf);
+}
+@font-face {
   font-family: RobotoCondensed-Light;
   src: url(../fonts/roboto/RobotoCondensed-Light.ttf);
 }
@@ -426,7 +430,7 @@ line-height: 1.49;
 }
 .carge_container{
   text-align: center;
-  margin-top: 465px;
+  margin-top: 350px;
   margin-bottom: 60px;
 }
 .carge_container p{
@@ -457,14 +461,195 @@ line-height: 1.49;
   color: #fff;
   line-height: 12px;
 }
+.minus-btn, .plus-btn{
+  cursor: pointer;
+}
+
+.most-p{
+  font-size: 27px;
+ letter-spacing: 1.38px;
+    color: #f28661;
+    font-family: Oswald-SemiBold;
+}
+.bottom-val{
+  vertical-align: bottom !important;
+}
+
+.testmonial-heading {
+    background: url(../img/hero-pattern.svg) #f3f8ff;
+    height: 1000px;
+    background-size: 100%;
+    background-position: bottom center;
+  }
+.testmonial-heading h1 {
+    font-size: 42px;
+    font-weight: bold;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: Oswald-SemiBold;
+}
+.testmonial-heading p {
+    margin: 0;
+    color: #454444;
+    font-size: 20px;
+    line-height: 1.78;
+    letter-spacing: 1.03px;
+    font-family: RobotoCondensed-Regular;
+    text-align: center;
+}
+
+.testmonial-seewhy h4{
+  font-family: Oswald-SemiBold;
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 1.4px;
+  text-align: left;
+  color: #181818;
+}
+.testmonial-seewhy p{
+  font-family: RobotoCondensed-Regular;
+  font-size: 20.5px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: 1.03px;
+  text-align: left;
+  color: #454444;
+}
+
+.testmonial_card {
+    background: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 30px 30px 10px 30px;
+    box-shadow: 0 0 10px #ccc;
+    margin: 20px 10px;
+}
+.testmonial_card .media img{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+.testmonial_card .media .media-body .name{
+  font-family: RobotoCondensed-Bold;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #181818 !important;
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+.testmonial_card .media .media-body .designation{
+font-family: RobotoCondensed-Regular;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-align: left;
+  color: rgba(41, 51, 64, 0.6);
+
+}
+.testmonial_card .desc{
+  font-family: RobotoCondensed-Light;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #454444;
+}
+
+.testmonial_card .desc{
+  font-family: RobotoCondensed-Light;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  text-align: left !important;
+  color: #454444;
+}
+
+.testmonial_card .spnsr{
+   font-family: Oswald-SemiBold;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #08382e;
+  margin: 25px 0;
+}
+.combined-shape{
+  margin-top: -35%;
+  margin-left: 60%;
+}
+
+.mt-10{
+  margin-top: 12%;
+}
+.tst-brandname{
+   font-family: Oswald-SemiBold;
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 1.4px;
+  text-align: left;
+  color: #181818;
+}
+.tst-brand-desc{
+  font-family: RobotoCondensed-Regular;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #454444;
+}
+.testmonial_logo_card {
+    background: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 30px 30px 10px 30px;
+    box-shadow: 0 0 10px #ccc;
+    margin: 20px 10px;
+    height: 138px;
+}
+
+
 @media only screen and (max-width: 812px) {
   .history_card{
     margin-left: 20px;
   }
+  .testmonial-heading {
+    height:auto !important;
+   
+  }
 }
 @media only screen and (max-width: 823px) {
   .carge_container{
-    margin-top: 650px;
+    margin-top: 550px;
     padding: 0 30px;
   }
   .orderbtn {
@@ -571,4 +756,5 @@ line-height: 1.49;
   .pickuplist li{
     font-size: 16px!important;
   }
+
 }
