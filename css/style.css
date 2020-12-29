@@ -38,9 +38,153 @@
   font-family: Oswald-SemiBold;
   src: url(../fonts/Oswald/Oswald-SemiBold.ttf);
 }
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/montserrat/Montserrat-Regular.otf);
+}@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../fonts/montserrat/Montserrat-Medium.otf);
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../fonts/montserrat/Montserrat-SemiBold.otf);
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/montserrat/Montserrat-Bold.otf);
+}
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../fonts/montserrat/Montserrat-Light.otf);
+}
 
 
-.navbar .navbar-brand {
+header .navbar{
+padding: 1rem 1rem;
+}
+#sidebarCollapse i{
+  color: #fff;
+  font-size: 25px;
+}
+.logo{
+  width: 150px;
+}
+.custom-logo {
+    width: 250px;
+    height: 40px;
+}
+.headercolor{
+ /*position: fixed;*/
+ background-color: #000000ad;
+ display: block;
+ z-index: 999;
+ width: 100%;
+ top: 0px;
+ padding: .5rem 0px;
+}
+.headercolor .logo{
+  width: 100px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 9999;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: Montserrat-Regular;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+/*.navbar-dark .navbar-brand {
+    background-color: #0F384D;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}*/
+.getStarted{
+    background-color: #F78762;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    font-family: Barlow-Bold;
+    padding: 15px;
+    float: right;
+    position: absolute;
+    right: 8%;
+    border-radius: 0px;
+    letter-spacing: 0.2em;
+  padding: 15px 37px;
+    border-radius: 3px;
+}
+a.getStarted{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+footer {
+background-color: #191919;
+    height: 225px;
+    padding: 1% 2% 0% 2%;
+}
+footer .copyright{
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  color: #D3EFF3;
+}
+footer .social-menu {
+    float: right;
+}
+footer .social-menu a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 33px;
+    display: inline-block;
+    height: 33px;
+    text-align: center;
+    padding: 5px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+.js-anchor-link {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+/*.navbar .navbar-brand {
   font-size: 30px;
 }
 .navbar .nav-item {
@@ -60,7 +204,7 @@
 .navbar .nav-link {
   font-size: 20px;
   margin-left: 10px;
-}
+}*/
 .fa-bars {
   color: #f28661;
   font-size: 30px;
@@ -321,6 +465,7 @@ line-height: 1.49;
     background-size: 100%;
     background-position: bottom center;
     background-repeat: no-repeat;
+    /*margin-top: 5%;*/
 }
 .pricing_container h1{
   font-size: 42px;
@@ -637,6 +782,34 @@ font-family: RobotoCondensed-Regular;
     height: 138px;
 }
 
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media (max-width: 575px){
+.custom-logo {
+    width: 160px !important;
+    height: 36px !important;
+}
+.getStarted {
+    font-size: 10px !important;
+    padding: 8px !important;
+    float: right;
+    position: absolute;
+    right: 18%;
+}
+footer {
+    background-color: #191919;
+    height: auto;
+    padding: 1% 2% 2% 2%;
+}
+footer .social-menu {
+    float: initial;
+    text-align: center;
+}
+}
 
 @media only screen and (max-width: 812px) {
   .history_card{
