@@ -508,7 +508,7 @@ line-height: 1.49;
     line-height: 42px!important;
   font-family: Oswald-SemiBold !important;
 }
-.dolar_text span{
+.dolar_text .dollar-sign{
   font-size: 16px;
   vertical-align: top;
   line-height: 0;

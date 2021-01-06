@@ -49,7 +49,7 @@
                 <div class="col-md-4">
                     <div class="pricing_card card_height">
                         <h2>Tiered </h2>
-                        <p class="dolar_text"><span>$</span>4-10 </p>
+                        <p class="dolar_text"><span class="dollar-sign">$</span><span class="price">4</span> -10</p>
                         <p class="perdaytext"> per day I per location</p>
                         <p class="orderbtn"><span class="noaddbtn minus-btn"><i class="fa fa-minus"></i></span><span class="vl">1-10</span> orders  <span class="addbtn plus-btn"><i class="fa fa-plus"></i></span></p>
                         <button class="pricegetbtn">GET STARTED </button> 
@@ -67,7 +67,7 @@
                     <div class="pricing_card center_card">
                         <span class="most-p">Most Popular</span>
                         <h2>Commission  </h2>
-                        <p class="dolar_text">4<span>%</span> </p>
+                        <p class="dolar_text">4<span class="dollar-sign">%</span> </p>
                         <p class="perdaytext">per order </p>
                         <!-- <p class="orderbtn"><span class="noaddbtn"></span>1-10 orders 0 <span class="addbtn"></span></p> -->
                         <button class="pricegetbtn bgcolorchange ">GET STARTED </button> 
@@ -84,7 +84,7 @@
                 <div class="col-md-4">
                     <div class="pricing_card card_height">
                       <h2>Fixed </h2>
-                        <p class="dolar_text "><span>$</span>99 </p>
+                        <p class="dolar_text "><span class="dollar-sign">$</span>99 </p>
                         <p class="perdaytext"> per month I per location </p>
 
                         
@@ -169,18 +169,18 @@ function closeNav() {
         var counterMinus = 0;
             $('.plus-btn').click(function(){
                 var arr1 = $('.vl').text().split("-");
-                // var dllr = $('.dollartext').text();
+                var dllr = $('.price').text();
                 counter++;
                 var a =  parseInt(arr1[0])+10;
                 var b =  parseInt(arr1[1])+10;
-                // var c = parseInt(dllr)+2;
+                var c = parseInt(dllr)+2;
                 if(parseInt(arr1[0]) < 21){
                     $('.vl').text(a+'-'+b);
-                    // $('.dollartext').text(c);
+                    $('.price').text(c);
                 }
                 else{
                     $('.vl').text(31);
-                    // $('.dollartext').text(10);
+                    $('.price').text(10);
                 }
                 
                 
@@ -190,19 +190,19 @@ function closeNav() {
             $('.minus-btn').click(function(){
                  
                var arr = $('.vl').text().split("-");
-               // var dllr = $('.dollartext').text();
-               // var c = parseInt(dllr)-2;
+               var dllr = $('.price').text();
+               var c = parseInt(dllr)-2;
                 if(parseInt(arr[0]) == 31){
                     var a =  parseInt(arr[0])-10;
                     $('.vl').text(a+'-'+30);
-                    // $('.dollartext').text(c);
+                    $('.price').text(c);
                     return false;
                 }
                if(arr[0] >1){
                 var a =  parseInt(arr[0])-10;
                 var b =  parseInt(arr[1])-10;
                 $('.vl').text(a+'-'+b);
-                // $('.dollartext').text(c);
+                $('.price').text(c);
                }
                
             });
