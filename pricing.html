@@ -51,7 +51,7 @@
                         <h2>Tiered </h2>
                         <p class="dolar_text"><span>$</span>4-10 </p>
                         <p class="perdaytext"> per day I per location</p>
-                        <p class="orderbtn"><span class="noaddbtn minus-btn"><i class="fa fa-minus"></i></span><span class="vl">1-10</span> orders $<span class="dollartext">4</span> <span class="addbtn plus-btn"><i class="fa fa-plus"></i></span></p>
+                        <p class="orderbtn"><span class="noaddbtn minus-btn"><i class="fa fa-minus"></i></span><span class="vl">1-10</span> orders  <span class="addbtn plus-btn"><i class="fa fa-plus"></i></span></p>
                         <button class="pricegetbtn">GET STARTED </button> 
                         <ul>
                             <li><img src="img/right_icon.png">No Setup Fee </li>
@@ -84,7 +84,7 @@
                 <div class="col-md-4">
                     <div class="pricing_card card_height">
                       <h2>Fixed </h2>
-                        <p class="dolar_text dolar_top"><span>$</span>99 </p>
+                        <p class="dolar_text "><span>$</span>99 </p>
                         <p class="perdaytext"> per month I per location </p>
 
                         
@@ -169,18 +169,18 @@ function closeNav() {
         var counterMinus = 0;
             $('.plus-btn').click(function(){
                 var arr1 = $('.vl').text().split("-");
-                var dllr = $('.dollartext').text();
+                // var dllr = $('.dollartext').text();
                 counter++;
                 var a =  parseInt(arr1[0])+10;
                 var b =  parseInt(arr1[1])+10;
-                var c = parseInt(dllr)+2;
+                // var c = parseInt(dllr)+2;
                 if(parseInt(arr1[0]) < 21){
                     $('.vl').text(a+'-'+b);
-                    $('.dollartext').text(c);
+                    // $('.dollartext').text(c);
                 }
                 else{
                     $('.vl').text(31);
-                    $('.dollartext').text(10);
+                    // $('.dollartext').text(10);
                 }
                 
                 
@@ -190,19 +190,19 @@ function closeNav() {
             $('.minus-btn').click(function(){
                  
                var arr = $('.vl').text().split("-");
-               var dllr = $('.dollartext').text();
-               var c = parseInt(dllr)-2;
+               // var dllr = $('.dollartext').text();
+               // var c = parseInt(dllr)-2;
                 if(parseInt(arr[0]) == 31){
                     var a =  parseInt(arr[0])-10;
                     $('.vl').text(a+'-'+30);
-                    $('.dollartext').text(c);
+                    // $('.dollartext').text(c);
                     return false;
                 }
                if(arr[0] >1){
                 var a =  parseInt(arr[0])-10;
                 var b =  parseInt(arr[1])-10;
                 $('.vl').text(a+'-'+b);
-                $('.dollartext').text(c);
+                // $('.dollartext').text(c);
                }
                
             });
