@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/roboto/Roboto-Bold.ttf);
+}
+
+
+.banner{
+  background-color: #e8e8e8;
+  /*height: 300px;*/
+  padding: 50px 20px;
+
+}
+.integration-text{
+  font-family: Roboto-Bold;
+  font-size: 31px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.1px;
+  text-align: center;
+  color: #151515;
+}
+.avl-now{
+  font-family: Roboto-Bold;
+  font-size: 31px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.1px;
+  text-align: center;
+  color: #f8423e;
+}
+
+.f-left{
+  float: left;
+}
+.pd-top-10{
+  padding-top: 8%;
+}
+.m-l-20{
+  margin-left: -16%; 
+}
+.wd-70{
+  width: 70%;
+}
+.sprt-img{
+  margin-top: 8%;
+ 
+}
+.mobile-img{
+  position: absolute;
+  margin-left: -129px;
+  margin-top: -30px;
+  
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+.logo{
+    width: 50%;
+  }
+  .integration-text {
+    font-size: 20px;
+  }
+  .avl-now {
+    font-size: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+ .wd-70{
+  width: 100%;
+}
+.img-res{
+  width: 100%;
+}
+.sprt-img{
+  display: block;
+  margin: 10% auto;
+}
+}
