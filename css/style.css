@@ -500,21 +500,53 @@ line-height: 1.49;
   color: #181818;
   font-family: Oswald-SemiBold;
 }
+.pricing_card-commission{
+  font-size: 35px !important;
+  line-height: 3.15;
+  letter-spacing: 1.38px;
+  color: #181818;
+  font-family: Oswald-SemiBold;
+}
 .dolar_text{
   color: #15382e!important;
-    font-size: 40px!important;
+    font-size: 45px!important;
     font-family: inherit !important;
     margin: 24px 0 10px !important;
     line-height: 42px!important;
   font-family: Oswald-SemiBold !important;
 }
+
 .dolar_text .dollar-sign{
-  font-size: 16px;
+  font-size: 17px;
   vertical-align: top;
   line-height: 0;
   font-family: Oswald-SemiBold;
 }
+
+.dolar_text-commission-price{
+  color: #15382e!important;
+    font-size: 58px!important;
+    font-family: inherit !important;
+    margin: 24px 0 10px !important;
+    line-height: 42px!important;
+  font-family: Oswald-SemiBold !important;
+}
+.dolar_text-commission-price .dollar-sign{
+  font-size: 22px;
+  vertical-align: top;
+  line-height: 0;
+  font-family: Oswald-SemiBold;
+}
+.perdaytext-commission{
+  font-size: 21px !important;
+  color:#4e4d4d!important;
+  letter-spacing: 0!important;
+  margin-bottom: 18px!important;
+  font-family: RobotoCondensed-Regular;
+}
+
 .perdaytext{
+  font-size: 19px !important;
   color:#4e4d4d!important;
   letter-spacing: 0!important;
   margin-bottom: 18px!important;
