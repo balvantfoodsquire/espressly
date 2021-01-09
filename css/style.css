@@ -652,9 +652,16 @@ line-height: 1.49;
   vertical-align: bottom !important;
 }
 
+
+.engineered-heading{
+  font-size: 42px;
+    font-weight: bold;
+    
+    font-family: Oswald-SemiBold;
+}
 .testmonial-heading {
     background: url(../img/hero-pattern.svg) #f3f8ff;
-    height: 1000px;
+    max-height: 850px;
     background-size: 100%;
     background-position: bottom center;
   }
@@ -805,13 +812,16 @@ font-family: RobotoCondensed-Regular;
   color: #454444;
 }
 .testmonial_logo_card {
-    background: #fff;
+    background-color: #fff;
     border-radius: 25px;
     text-align: center;
-    padding: 30px 30px 10px 30px;
+    padding: 20px 30px 10px 30px;
     box-shadow: 0 0 10px #ccc;
     margin: 20px 10px;
     height: 138px;
+}
+.testmonial_logo_card:hover{
+background-color:#f78761;
 }
 
 
