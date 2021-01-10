@@ -865,6 +865,7 @@ font-family: RobotoCondensed-Regular;
     height: 138px;
     background: url("../img/5.png") no-repeat;
     background-position: center;
+    filter: grayscale(1);
 }
 .testmonial_logo_card1:hover{
  background-color:#f78761 !important;
@@ -890,6 +891,7 @@ font-family: RobotoCondensed-Regular;
  background-color:#f78761 !important;
  background: url("../img/5.png") no-repeat;
  background-position: center;
+ filter: grayscale(0);
 }
 
 {
