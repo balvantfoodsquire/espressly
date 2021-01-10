@@ -811,7 +811,7 @@ font-family: RobotoCondensed-Regular;
   text-align: left;
   color: #454444;
 }
-.testmonial_logo_card {
+.testmonial_logo_card1 {
     background-color: #fff;
     border-radius: 25px;
     text-align: center;
@@ -819,11 +819,82 @@ font-family: RobotoCondensed-Regular;
     box-shadow: 0 0 10px #ccc;
     margin: 20px 10px;
     height: 138px;
+    background: url("../img/dottiles.png") no-repeat;
+    background-position: center;
 }
-.testmonial_logo_card:hover{
-background-color:#f78761;
+.testmonial_logo_card2 {
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 30px 10px 30px;
+    box-shadow: 0 0 10px #ccc;
+    margin: 20px 10px;
+    height: 138px;
+    background: url("../img/hansa-cofee.png") no-repeat;
+    background-position: center;
+}
+.testmonial_logo_card3 {
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 30px 10px 30px;
+    box-shadow: 0 0 10px #ccc;
+    margin: 20px 10px;
+    height: 138px;
+    background: url("../img/bagel.png") no-repeat;
+    background-position: center;
+}
+.testmonial_logo_card4 {
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 30px 10px 30px;
+    box-shadow: 0 0 10px #ccc;
+    margin: 20px 10px;
+    height: 138px;
+    background: url("../img/pvdonuts.png") no-repeat;
+    background-position: center;
+}
+.testmonial_logo_card5 {
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 30px 10px 30px;
+    box-shadow: 0 0 10px #ccc;
+    margin: 20px 10px;
+    height: 138px;
+    background: url("../img/5.png") no-repeat;
+    background-position: center;
+}
+.testmonial_logo_card1:hover{
+ background-color:#f78761 !important;
+ background: url("../img/1.png") no-repeat;
+ background-position: center;
+}
+.testmonial_logo_card2:hover{
+ background-color:#f78761 !important;
+ background: url("../img/2.png") no-repeat;
+ background-position: center;
+}
+.testmonial_logo_card3:hover{
+ background-color:#f78761 !important;
+ background: url("../img/3.png") no-repeat;
+ background-position: center;
+}
+.testmonial_logo_card4:hover{
+ background-color:#f78761 !important;
+ background: url("../img/4.png") no-repeat;
+ background-position: center;
+}
+.testmonial_logo_card5:hover{
+ background-color:#f78761 !important;
+ background: url("../img/5.png") no-repeat;
+ background-position: center;
 }
 
+{
+
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
