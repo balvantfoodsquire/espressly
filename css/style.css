@@ -811,6 +811,25 @@ font-family: RobotoCondensed-Regular;
   text-align: left;
   color: #454444;
 }
+
+.testmonial_logo_card {
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 30px 10px 30px;
+    box-shadow: 0 0 10px #ccc;
+    margin: 20px 10px;
+    height: 138px;
+    filter: grayscale(1);
+   /* background: url("../img/dottiles.png") no-repeat;
+    background-position: center;*/
+}
+
+.testmonial_logo_card:hover{
+ background-color:#f78761 !important;
+ filter: grayscale(0);
+}
+
 .testmonial_logo_card1 {
     background-color: #fff;
     border-radius: 25px;
