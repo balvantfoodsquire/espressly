@@ -715,6 +715,11 @@ line-height: 1.49;
     box-shadow: 0 0 10px #ccc;
     margin: 20px 10px;
 }
+.testmonial_card:hover{
+  box-shadow: 0 0 15px #ccc;
+    transform:scale(1.1);
+  transition:1s;
+}
 .testmonial_card .media img{
   width: 70px;
   height: 70px;
@@ -828,6 +833,9 @@ font-family: RobotoCondensed-Regular;
 .testmonial_logo_card:hover{
  background-color:#f78761 !important;
  filter: grayscale(0);
+ box-shadow: 0 0 15px #ccc;
+ transform: scale(1.1);
+    transition: 1s;
 }
 
 .testmonial_logo_card1 {
