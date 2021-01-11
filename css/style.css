@@ -720,6 +720,11 @@ line-height: 1.49;
     transform:scale(1.1);
   transition:1s;
 }
+
+.testmonial_card:hover .combined-shape{
+  display: none;
+}
+
 .testmonial_card .media img{
   width: 70px;
   height: 70px;
