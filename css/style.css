@@ -720,11 +720,6 @@ line-height: 1.49;
     transform:scale(1.1);
   transition:1s;
 }
-
-.testmonial_card:hover .combined-shape{
-  display: none;
-}
-
 .testmonial_card .media img{
   width: 70px;
   height: 70px;
@@ -792,8 +787,12 @@ font-family: RobotoCondensed-Regular;
   margin: 25px 0;
 }
 .combined-shape{
-  margin-top: -35%;
-  margin-left: 60%;
+  /*margin-top: -35%;
+  margin-left: 60%;*/
+  margin-top: -10%;
+    margin-left: 60%;
+    position: absolute;
+    z-index: 999;
 }
 
 .mt-10{
