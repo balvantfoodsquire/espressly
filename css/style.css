@@ -794,7 +794,19 @@ font-family: RobotoCondensed-Regular;
     position: absolute;
     z-index: 999;
 }
-
+.name-title{
+  color: #454444;
+    font-size: 20px;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: 1.03px;
+    font-family: RobotoCondensed-Regular;
+    margin-top: 15px;
+}
+.img-w-100{
+  
+}
 .mt-10{
   margin-top: 12%;
 }
