@@ -802,10 +802,13 @@ font-family: RobotoCondensed-Regular;
     line-height: 1.78;
     letter-spacing: 1.03px;
     font-family: RobotoCondensed-Regular;
-    margin-top: 15px;
+    margin-top: 5px;
+}
+#row_space .div_space{
+  margin-top:20px; 
 }
 .img-w-100{
-  
+
 }
 .mt-10{
   margin-top: 12%;
