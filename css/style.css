@@ -661,7 +661,7 @@ line-height: 1.49;
 }
 .testmonial-heading {
     background: url(../img/hero-pattern.svg) #f3f8ff;
-    max-height: 850px;
+    max-height: 1050px;
     background-size: 100%;
     background-position: bottom center;
   }
@@ -801,11 +801,22 @@ font-family: RobotoCondensed-Regular;
     font-style: normal;
     line-height: 1.78;
     letter-spacing: 1.03px;
-    font-family: RobotoCondensed-Regular;
+    font-family: RobotoCondensed-Bold;
     margin-top: 5px;
 }
+
 #row_space .div_space{
   margin-top:20px; 
+}
+.team_heading {
+    color: #181818;
+    font-size: 43px;
+    font-style: bold;
+    line-height: 2.08;
+    letter-spacing: 2.18px;
+    text-align: center;
+    font-family: Oswald-SemiBold;
+    padding-top: 20px;
 }
 .img-w-100{
 
