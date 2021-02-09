@@ -951,9 +951,185 @@ font-family: RobotoCondensed-Regular;
  filter: grayscale(0);
 }
 
-{
-
+/*feature css*/
+.feature_bg{
+  background-image: url('../img/feature_bg.png');
+  /*height: 537px;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px
 }
+.feature-learn-btn{
+  padding: 15px 15px;
+  border-radius: 3px;
+  background-color: #f78762;
+   font-family: Barlow-Bold;
+  font-size: 16.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.3px;
+  text-align: right;
+  color: #ffffff;
+}
+.f_heading{
+  font-family: Oswald-SemiBold;
+  font-size: 45px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.25px;
+  text-align: left;
+  color: #ffffff;
+}
+.f_small_title{
+  font-family: RobotoCondensed-Regular;
+  font-size: 20.5px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: 1.03px;
+  text-align: left;
+  color: #fffefe;
+}
+.f_logo-bg{
+  background-color: #f5f5f5;
+}
+.trusted-ty-top-trands{
+  font-family: SourceSansPro;
+  font-size: 13px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b6b9bd;
+}
+.aws-app-feature{
+  font-family: Oswald-SemiBold;
+  font-size: 45px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.25px;
+  text-align: left;
+  color: #000000;
+}
+.aws-app-feature-p{
+  font-family: RobotoCondensed-Regular;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: 1.03px;
+  text-align: left;
+  color: #454444;
+}
+.md-body h5 {
+  font-family: Oswald-SemiBold;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #09382e;
+}
+.md-body p{
+ font-family: RobotoCondensed-Regular;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.88px;
+  text-align: left;
+  color: #454444;
+}
+.in-avl{
+  background-color: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px; 
+}
+.avl-h5{
+   font-family: Oswald-SemiBold;
+  font-size: 45px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.25px;
+  text-align: center;
+  color: #000000;
+}
+.wht-box{
+   width: 204px;
+  height: 116px;
+  margin-top: 20px;
+  padding: 10px 5px 10px 6px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: -0.4px 1.9px 18px 0 rgba(8, 9, 13, 0.03);
+  border: solid 1px #e1e1e2;
+  background-color: #ffffff;
+  vertical-align: middle;
+  display: inline-flex;
+}
+.wht-box1{
+   width: 635px;
+  height: 116px;
+  margin-top: 20px;
+  padding: 10px 5px 10px 6px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: -0.4px 1.9px 18px 0 rgba(8, 9, 13, 0.03);
+  border: solid 1px #e1e1e2;
+  background-color: #ffffff;
+  vertical-align: middle;
+  display: inline-flex;
+}
+.wht-box img{
+  display: flex;
+    margin: auto;
+}
+.wht-box1 img{
+  display: flex;
+    margin: auto;
+}
+.img-position{
+  position: absolute;
+    bottom: -93px;
+    left: -190px;
+}
+.brands-to-your{
+ background-color: #f5f5f5;
+ padding-top: 50px;
+ /*padding-bottom: 50px; 
+ background-image: url('../img/brands-img.png');
+ background-size: contain;
+ height: 600px;
+ background-repeat: no-repeat;
+ background-position: right;
+*/}
+.brands-to-your p{
+  font-family: RobotoCondensed-Regular;
+  font-size: 20.5px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: 1.03px;
+  text-align: left;
+  color: #454444;
+}
+/*end*/
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -991,6 +1167,9 @@ footer .social-menu {
     height:auto !important;
    
   }
+  .wht-box, .wht-box1{
+    width: 300px;
+  }
 }
 @media only screen and (max-width: 823px) {
   .carge_container{
@@ -1025,6 +1204,9 @@ footer .social-menu {
   }
   .pickuplist li{
     font-size: 16px!important;
+  }
+  .wht-box, .wht-box1{
+    width: 300px;
   }
 }
 @media only screen and (max-width: 767px) {
