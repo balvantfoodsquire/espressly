@@ -1053,6 +1053,16 @@ font-family: RobotoCondensed-Regular;
   text-align: left;
   color: #454444;
 }
+.aws_img{
+  max-width: 438px;
+}
+.devic1-img{
+  max-width: 400px;
+  margin-left: -25%;
+}
+.m-l-12{
+  margin-left: 12.5%;
+}
 .in-avl{
   background-color: #f5f5f5;
   padding-top: 50px;
