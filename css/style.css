@@ -461,7 +461,7 @@ line-height: 1.49;
 
 .pricing_container{
   background: url(../img/hero-pattern.svg) #f3f8ff;
-    height: 830px;
+    height: 1200px;
     background-size: 100%;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -544,6 +544,13 @@ line-height: 1.49;
   margin-bottom: 18px!important;
   font-family: RobotoCondensed-Regular;
 }
+.pspan{
+  font-size: 16px !important;
+  color:#4e4d4d!important;
+  letter-spacing: 0!important;
+  margin-bottom: 10px!important;
+  font-family: RobotoCondensed-Regular;
+}
 
 .perdaytext{
   font-size: 19px !important;
@@ -583,9 +590,13 @@ line-height: 1.49;
   font-size: 19px !important;
   color: #6c757d!important;
   font-family: RobotoCondensed-Light!important;
+  display: inline-flex;
 }
 .pricing_card ul li img{
-  margin-right: 10px;
+  margin-right: 8px;
+  width: 20px;
+    height: 20px;
+    margin-top: 8px;
 }
 .bgcolorchange{
   background:#f28661!important;
@@ -603,7 +614,7 @@ line-height: 1.49;
   padding-top: 20px;
 }
 .card_height{
-  height: 612px!important;
+  min-height: 612px!important;
 }
 .carge_container{
   text-align: center;
