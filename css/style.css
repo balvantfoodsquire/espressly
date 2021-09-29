@@ -249,6 +249,7 @@ button:focus{
     margin: 0 auto 30px 0;
     text-align: center;
     padding: 40px 20px 14px;
+    min-height: 400px;
 }
 .toolcard_row{
     width: 90%;
@@ -461,11 +462,11 @@ line-height: 1.49;
 
 .pricing_container{
   background: url(../img/hero-pattern.svg) #f3f8ff;
-    height: 1200px;
+    /*height: 1250px;*/
     background-size: 100%;
     background-position: bottom center;
-    background-repeat: no-repeat;
-    /*margin-top: 5%;*/
+    /*background-repeat: no-repeat;*/
+    padding-bottom: 5%;
 }
 .pricing_container h1{
   font-size: 42px;
@@ -491,7 +492,7 @@ line-height: 1.49;
   text-align: center;
   padding: 30px 30px 10px 30px;
   box-shadow: 0 0 10px #ccc;
-  margin-top: 190px;
+  margin-top: 20%;
 }
 .pricing_card h2{
   font-size: 27px;
@@ -618,7 +619,7 @@ line-height: 1.49;
 }
 .carge_container{
   text-align: center;
-  margin-top: 350px;
+  margin-top: 5%;
   margin-bottom: 60px;
 }
 .carge_container p{
@@ -1071,7 +1072,7 @@ font-family: RobotoCondensed-Regular;
   max-width: 400px;
   margin-left: -25%;
 }
-.m-l-12{
+.merchBrand .m-l-12{
   margin-left: 12.5%;
 }
 .in-avl{
@@ -1150,6 +1151,9 @@ font-family: RobotoCondensed-Regular;
   text-align: left;
   color: #454444;
 }
+.mt-12{
+    margin: 12% 0;
+  }
 /*end*/
 
 @media screen and (max-height: 450px) {
@@ -1185,11 +1189,18 @@ footer .social-menu {
     margin-left: 20px;
   }
   .testmonial-heading {
-    height:auto !important;
+    height: auto !important;
+    max-height: inherit;
    
   }
   .wht-box, .wht-box1{
     width: 300px;
+  }
+  .brand_row{
+    justify-content: center!important;
+  }
+  .mt-12{
+    margin: 5% 0;
   }
 }
 @media only screen and (max-width: 823px) {
@@ -1228,6 +1239,12 @@ footer .social-menu {
   }
   .wht-box, .wht-box1{
     width: 300px;
+  }
+  .merchBrand .m-l-12{
+    margin-left: auto;
+  }
+  .aws_img{
+    max-width: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1304,5 +1321,7 @@ footer .social-menu {
   .pickuplist li{
     font-size: 16px!important;
   }
-
+  .merchBrand .m-l-12{
+    margin-left: auto;
+  }
 }
