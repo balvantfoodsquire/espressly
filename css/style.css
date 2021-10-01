@@ -481,7 +481,7 @@ line-height: 1.49;
   margin: 0;
   color: #454444;
   font-size: 20px;
-  line-height: 1.78;
+  /*line-height: 1.78;*/
   letter-spacing: 1.03px;
   font-family: RobotoCondensed-Regular;
   text-align: center;
@@ -526,14 +526,14 @@ line-height: 1.49;
 
 .dolar_text-commission-price{
   color: #15382e!important;
-    font-size: 58px!important;
+    font-size: 45px!important;
     font-family: inherit !important;
     margin: 24px 0 10px !important;
     line-height: 42px!important;
   font-family: Oswald-SemiBold !important;
 }
 .dolar_text-commission-price .dollar-sign{
-  font-size: 22px;
+  font-size: 17px;
   vertical-align: top;
   line-height: 0;
   font-family: Oswald-SemiBold;
@@ -542,7 +542,7 @@ line-height: 1.49;
   font-size: 21px !important;
   color:#4e4d4d!important;
   letter-spacing: 0!important;
-  margin-bottom: 18px!important;
+  /*margin-bottom: 18px!important;*/
   font-family: RobotoCondensed-Regular;
 }
 .pspan{
@@ -554,10 +554,10 @@ line-height: 1.49;
 }
 
 .perdaytext{
-  font-size: 19px !important;
+  font-size: 21px !important;
   color:#4e4d4d!important;
   letter-spacing: 0!important;
-  margin-bottom: 18px!important;
+  /*margin-bottom: 18px!important;*/
   font-family: RobotoCondensed-Regular;
 }
 .orderbtn {
@@ -844,7 +844,7 @@ font-family: RobotoCondensed-Regular;
   font-style: normal;
   line-height: 1.29;
   letter-spacing: 1.4px;
-  text-align: left;
+  text-align: center;
   color: #181818;
 }
 .tst-brand-desc{
@@ -855,7 +855,7 @@ font-family: RobotoCondensed-Regular;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: 1px;
-  text-align: left;
+  text-align: center;
   color: #454444;
 }
 
@@ -1185,6 +1185,23 @@ footer .social-menu {
 }
 
 @media only screen and (max-width: 812px) {
+  .f_heading {
+    font-size: 30px;
+  }
+  .f_small_title {
+    font-family: RobotoCondensed-Regular;
+    font-size: 14px;
+  }
+  .feature-learn-btn {
+    padding: 10px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  .featureImg img{
+    margin: auto;
+    display: flex;
+    width: 50%;
+  }
   .history_card{
     margin-left: 20px;
   }
@@ -1204,8 +1221,11 @@ footer .social-menu {
   }
 }
 @media only screen and (max-width: 823px) {
+  .aws-app-feature{
+    font-size: 30px;
+  }
   .carge_container{
-    margin-top: 550px;
+    /*margin-top: 550px;*/
     padding: 0 30px;
   }
   .orderbtn {
@@ -1324,4 +1344,35 @@ footer .social-menu {
   .merchBrand .m-l-12{
     margin-left: auto;
   }
+}
+@media all and (device-width: 768px) {
+  .aws_img {
+    max-width: 335px;
+}
+.merchBrand .m-l-12 {
+   margin-left: 23.5%;
+    width: 80%;
+}
+.testmonial-heading {
+    height: auto !important;
+    max-height: inherit;
+}
+}
+@media all and (device-width: 1024px){
+   .aws_img {
+    max-width: 335px;
+}
+.merchBrand .m-l-12 {
+    margin-left: 6.5%;
+}
+.brands-to-your {
+  padding-bottom: 50px;
+}
+.testmonial-heading {
+  height: auto !important;
+    max-height: inherit;
+}
+.mt-12 {
+    margin: 2% 0;
+}
 }
