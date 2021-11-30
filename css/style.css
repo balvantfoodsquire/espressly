@@ -868,8 +868,18 @@ font-family: RobotoCondensed-Regular;
     margin: 20px 10px;
     height: 138px;
     filter: grayscale(1);
+    position: relative;
    /* background: url("../img/dottiles.png") no-repeat;
     background-position: center;*/
+}
+.testmonial_logo_card  img{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
 }
 
 .testmonial_logo_card:hover{
@@ -1219,6 +1229,9 @@ footer .social-menu {
   .mt-12{
     margin: 5% 0;
   }
+  .squareLogosDiv{
+    height: auto !important;
+  }
 }
 @media only screen and (max-width: 823px) {
   .aws-app-feature{
@@ -1375,4 +1388,61 @@ footer .social-menu {
 .mt-12 {
     margin: 2% 0;
 }
+}
+
+.squareLogosDiv{
+    background-color: whitesmoke;
+    padding: 30px 35px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 420px;
+  }
+.dimaondLogosDiv{
+    background-color: whitesmoke;
+    padding: 30px;
+     border-radius: 10px;
+    margin: 30px 10px;
+    height: 200px;
+  }
+
+.chowlyLogosDiv{
+    background-color: whitesmoke;
+    padding: 30px 20px;
+    /*height: 600px;*/
+    border-radius: 10px;
+    margin: 5px;
+  }
+.logosBg{
+        background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25%;
+  }
+  .logosBg0{
+       background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 13%;
+  }
+  .logosBg1{
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    /*padding: 20px;*/
+    min-height: 120px;
+  }
+.logosCenter{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.requiresText{
+  font-weight: 600;
+  font-family: RobotoCondensed-Regular;
+  font-size: 20px;
+  padding-top: 10px;
+  letter-spacing: 1px;
 }
