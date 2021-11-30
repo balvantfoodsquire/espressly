@@ -64,6 +64,7 @@ body{
     text-transform: uppercase;
     border-radius: 10px;
     margin-top: 40px;
+    font-family: Gilroy-Bold;
 }
 .main-banner-text button img, .section-3-text button img, .section-5-text button img, .section-7-text button img {
     width: 40px;
@@ -220,6 +221,7 @@ img.small-circle {
     line-height: 40px;
     color: #23262B;
     margin-right: 40px;
+    font-family: Gilroy-Light;
 }
 .section-4-text span img {
     width: 24px;
@@ -329,4 +331,68 @@ img.small-circle2 {
 }
 .section-2 {
     padding: 150px 0px 20px 0px;
+}
+
+.input-check label{
+  font-weight: 300;
+    font-size: 16px;
+    color: #23262B;
+    margin-right: 40px;
+    font-family: Gilroy-Light;
+    margin-left: 15px;
+}
+/* Hide the browser's default checkbox */
+.input-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.input-check .checkmark {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+    border: 1px solid #dedede;
+}
+
+/* On mouse-over, add a grey background color */
+.input-check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.input-check input:checked ~ .checkmark {
+    background-color: transparent;
+    border: 1px solid #cbcbcb;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.input-check .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.input-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.input-check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+ height: 12px;
+    border: solid #1e77fb;
+    border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
