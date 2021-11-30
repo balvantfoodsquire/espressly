@@ -19,7 +19,7 @@
     background-color: #0064f0;
 }
 img.img-fluid.espress-logo {
-    width: 180px;
+    width: 210px;
     cursor: pointer;
 }
 .logo-bar {
@@ -176,6 +176,10 @@ body{
     padding: 80px 84px 80px 0px;
     border-right: 14px solid #006aff;
 }
+.section-3{
+  padding: 80px 84px 80px 0px;
+    border-left: 14px solid #006aff;
+}
 .section-3-text h3 {
     font-size: 50px;
     line-height: 55px;
@@ -296,7 +300,12 @@ img.small-circle2 {
     right: 16%;
 }
 .section-6 {
+   /*padding: 80px 84px 80px 0px;*/
+    /*border-left: 14px solid #006aff;*/
     padding: 90px 0px 0px 0px;
+}
+.section-6-div{
+  border-left: 14px solid #006aff;
 }
 .section-7-text {
     border-right: 14px solid #006aff;
